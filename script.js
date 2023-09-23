@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${student.id}</td>
-                <td>${student.first_name} ${student.last_name}</td>
+                <td><img src="${student.img_src} width="38" height="38"">${student.first_name} ${student.last_name}</td>
                 <td>${student.gender}</td>
                 <td>${student.class}</td>
                 <td>${student.marks}</td>
